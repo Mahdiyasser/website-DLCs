@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahdi’s Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="header-left"></div> 
+            <h1 class="logo">Mahdi's Projects</h1>
+            <button id="theme-toggle" class="smallbtn">☀️ Switch to Light</button>
+        </header>
+
+        <main id="main-content">
+            <section id="projects-view">
+                <h2 class="section-title">— Featured Projects —</h2>
+                <div class="feed projects-grid" id="projects-feed">
+                    <p id="loading-projects">Loading projects...</p>
+                </div>
+            </section>
+
+            <section id="posts-view" class="hidden">
+                <button id="back-to-projects" class="back-button">← Back to Projects</button>
+                <h2 class="section-title" id="posts-title">Posts for [Project Name]</h2>
+                <div class="posts-list" id="project-posts-list">
+                    </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Mahdi. Powered by Hope and Ambition.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
